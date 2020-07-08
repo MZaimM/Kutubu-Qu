@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kutubu-Qu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/style.css'>
+    <style>
+        .gambar{
+            background-image: url('gambar.jpg');
+            background-color: #cccccc; /* Used if the image is unavailable */
+            height: 520px; /* You must set a specified height */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+            margin-bottom: 20px;
+        }
+        #artikel{
+            background-image: url('assets/img/masjid.png');
+            background-color: #cccccc; /* Used if the image is unavailable */
+            height: auto; /* You must set a specified height */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#square">Collection</a></li>
+                <li><a href="#mosque">Blog</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#icons">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="gambar">
+            <div class="jumbotron">
+                <img src="assets/img/KutubuQu.svg">
+                <p>Situs belajar kitab-kitab islami, sejarah seputar islam, dan Blog sharing seputar tentang islam. </p>
+                <a href="#icons"><button class="button home">Daftar Sekarang</button></a>
+                <div id="square"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="square" id="collection">
+            <div class="kotak pertama" id="alquran">
+                <img src="assets/img/quran.svg" id="quran">
+                <h3>Kelas Al-Quran</h3>
+            </div>
+            <div class="kotak kedua">
+                <img src="assets/img/kitab.svg" id="kitab">
+                <h3>Kelas Kitab-Kitab</h3>
+            </div>
+            <div class="kotak ketiga">
+                <img src="assets/img/mosque.svg" id="mosque">
+                <h3>Sejarah Islam</h3>
+            </div>
+            <div class="clear"></div>
+        </article>
+        <h2 style="text-decoration: underline;">Gallery Blog Muslim</h2>
+        <div id="artikel">
+            <article class="container first">
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/120358">
+                        <img src="assets/img/puasa.jpg" alt="Puasa Syawal" width="600" height="400">
+                        <div class="desc">Panduan Praktis Puasa Syawal: Keutamaan, Waktu, dan Niat</div>
+                    </a>
+                </div>
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/116677/keutamaan-membaca-al-qur-an-dalam-hadits-rasulullah">
+                        <img src="assets/img/bacaquran.jpg" alt="Baca quran" width="600" height="400">
+                        <div class="desc">Keutamaan Membaca Al-Qur’an dalam Hadits Rasulullah</div>
+                    </a>
+                </div>
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/120323">
+                        <img src="assets/img/syawal.jpg" alt="Puasa Syawal" width="600" height="400">
+                        <div class="desc">Penjelasan Puasa Enam Hari Syawal seperti Puasa Setahun</div>
+                    </a>
+                </div>
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/53883">
+                        <img src="assets/img/shalat.jfif" alt="Shalat sunnah" width="600" height="400">
+                        <div class="desc">Shalat Sunnah 8 Rakaat di Bulan Syawal</div>
+                    </a>
+                </div>
+            </article>
+            <article class="container first">
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/91962">
+                        <img src="assets/img/idulfitri.jpg" alt="Puasa Syawal" width="600" height="400">
+                        <div class="desc">Hukum Batalkan Puasa Syawal saat Silaturahim Lebaran</div>
+                    </a>
+                </div>
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/91975">
+                        <img src="assets/img/keutamaan.jpg" alt="Keutaamaan Puasa Syawal" width="600" height="400">
+                        <div class="desc">Keutamaan Puasa Syawal Persis setelah Hari Id</div>
+                    </a>
+                </div>
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/92056">
+                        <img src="assets/img/halalbihalal.jpg" alt="Halal bi halal" width="600" height="400">
+                        <div class="desc">Halal bi Halal dan Kisah Rasulullah Selesaikan Urusannya pada Akasyah</div>
+                    </a>
+                </div>
+                <div class="gallery">
+                    <a href="https://islam.nu.or.id/post/read/80907">
+                        <img src="assets/img/kisah.jpg" alt="Shalat sunnah" width="600" height="400">
+                        <div class="desc" id="about">Kisah Kesederhanaan Anak Khalifah Umar bin Abdul Aziz di Hari Raya Idl</div>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <article class="third">
+            <h2 id="tentang">Tentang Kami</h2>
+            <h3 class="tentang">Website ini  mendukung kita dalam belajar alquran, belajar kitab-kitab islam seputar tauhid, aqidah akhlak, dan tajwid serta memberikan blog dakwah islam yang berlandaskan ahlussunnah wal jama’ah.</h3>
+            <h3 class="tentang">Support with :</h3>
+            <img id="logonu" src="assets/img/logonu.png" alt="logo NU" width="200px">
+            <h3 class="tentang">For more information :</h3>
+            <div id="icons">
+            <ul>
+                <li><a href="https://www.instagram.com/nuonline_id/"><img src="assets/img/instagram.svg" alt="instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCO3muy2MWpMLBB21a_9DVpw"><img src="assets/img/youtube.svg" alt="instagram"></a></li>
+                <li><a href="https://twitter.com/nu_online"><img src="assets/img/twitter.svg" alt="instagram"></a></li>
+            </ul>
+        </div>
+        </article>
+        <article class="fourth">
+             <div id="form">
+                <h2 id="pendaftaran">Isi form pendaftaran</h2>
+                <div class="wadah">
+                    <form action="#" method="POST" onsubmit="validasi()">
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="fname">First Name</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Nama depan..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="lname">Last Name</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Nama belakang..">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="country">Email</label>
+                          </div>
+                          <div class="col-75">
+                            <div class="col-75">
+                                <input type="text" id="email" name="email" placeholder="email">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit" id="submit1">
+                        </div>
+                    </form>
+                    <form action="#" method="POST" onsubmit="suggestion()">
+                        <h2 id="pendaftaran">Saran Pengembangan</h2>
+                        <div class="row">
+                            <div class="col-25">
+                              <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                              <textarea id="suggest" name="subject" placeholder="Beri kami masukkan..." style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit" id="submit2">
+                        </div>
+                    </form>
+                </div>
+
+             </div>
+             <aside>
+                <img id="profile" src="assets/img/zaim.svg" alt="image-profile">
+                <h3 id="job">Mahasiswa</h3>
+                <table>
+                    <tr>
+                        <th>Nama</th>
+                    </tr>
+                    <tr>
+                        <td>Muhammad Zaim Maulana</td>
+                    </tr>
+                    <tr>
+                        <th>Alamat</th>
+                    </tr>
+                    <tr>
+                        <td>JL Sidodadi II/02 Singosari, Malang</td>
+                    </tr>
+                    <tr>
+                        <th>No Telepon</th>
+                    </tr>
+                    <tr>
+                        <td>082232267154</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td>maulanazaim2908@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>Instagram</th>
+                    </tr>
+                    <tr>
+                        <td>@zaim_zilan</td>
+                    </tr>
+                </table>
+             </aside>
+        </article>
+    </main>
+    
+    <footer>
+        <p>Copyright 2020 | Built by Muhammad Zaim Maulana</p>
+    </footer>
+    <script src="assets/form.js"></script>
+</body>
+</html>

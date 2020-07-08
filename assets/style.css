@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: inline;
+}
+
+nav a:hover{
+    padding: 5px;
+    background-color:#4390C8 ;
+    border-radius: 10px;
+    color: white;
+
+}
+.jumbotron{
+    padding: 60px;
+    padding-top: 180px;
+    font-size: 20px;
+    text-align: center;
+    color: #404040;
+    font-family: 'Roboto',sans-serif;
+    text-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+}
+nav{
+    padding: 10px;
+    background-color:white;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color:#565656 ;
+}
+.jumbotron img{
+    width: 25%;
+}
+.button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4390C8;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 20%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.button:hover{
+    background-color: #48A6FC;
+}
+.square{
+    width: 50%;
+    height: 250px;
+    margin: auto;
+}
+.kotak{
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 50px;
+    border-radius: 20px;
+    height: 100%;
+    background-image: repeating-linear-gradient(#BBE0FB,#4390C8);
+    margin: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.kotak:hover{
+    background-image: repeating-linear-gradient(white,#A6D4FF);
+}
+.clear{
+    clear: both;
+}
+.first{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+@media screen and (max-width:915px){
+    .square{
+        width: 600px;
+    }
+    .kotak{
+        
+        float: left;
+        width: 30%;
+        padding: 10px;
+        padding-top: 40px;
+        border-radius: 20px;
+        height: 100%;
+        background-color: #99FFF9;
+        margin: 5px;
+        font-size: 16px;
+    }
+}
+h2{
+    text-align: center;
+    font-family: 'Kanit',sans-serif;
+    color: #565656;
+    padding: 20px;
+
+}
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 310px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: auto;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+div.gallery:hover{
+    border: 2px solid #48A6FC;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+div.desc{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Kanit',sans-serif;
+    font-family: 'Roboto',sans-serif;
+    color: #3E4347;
+}
+.container{
+    display: flex;
+}
+h3{
+    color: #565656 ;
+    font-family: 'Roboto',sans-serif;
+}
+.tentang{
+    text-align: center;
+    padding: 0 80px;
+}
+#logonu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#icons ul li{
+    display: inline;
+    padding: 5px;
+    list-style-type: none;
+}
+#icons{
+    margin: auto;
+    width: 20%;
+}
+.third{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #F0ECED;
+}
+footer{
+    background-color: #4390C8;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Kanit',sans-serif;
+    font-size: 18px;
+}
+.fourth{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+#form{
+    float: left;
+    width: 58%;
+    height: auto;
+    background-image: repeating-linear-gradient(#BBE0FB,#4390C8);
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+#pendaftaran{
+    margin: auto;
+    
+    font-size: 20px;
+}
+aside{
+    float: right;
+    width: 40%;
+    background-image: repeating-linear-gradient(#BBE0FB,#4390C8);
+    height:auto;
+    margin: auto;
+    overflow: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+#submit1, #submit2{
+    background-color: #4390C8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    font-family: 'Kanit',sans-serif;
+  }
+  
+#submit1:hover,#submit2:hover {
+    background-color: #48A6FC;
+  }
+  label{
+      font-family: 'Roboto',sans-serif;
+  }
+  
+  .wadah {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+#profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+#job{
+    text-align: center;
+}
+table{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+table tr{
+    text-align: center;
+}
+table tr th{
+    font-family: 'Kanit',sans-serif;
+    color: #565656;
+}
+table tr td{
+    font-family: 'Roboto',sans-serif;
+    color: #484848;
+}
+
+
+
+
+
